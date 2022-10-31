@@ -1,1 +1,5 @@
 /* File: assets/css/style.css */
+@import url("theme.css");
+@import url("global.css");
+@import url("header.css");
+@import url("footer.css");
