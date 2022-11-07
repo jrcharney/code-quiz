@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script defer src="assets/js/script.js"></script>
+    <script defer type="module" src="assets/js/script.js"></script>
     <title>Code Quiz</title>
 </head>
 <body>
@@ -20,8 +20,78 @@
     <!-- nav would go here -->
     <main>
         <!-- TODO: Homework assignment stuff goes here -->
-        <div class="card">
-            <!-- Game stuff -->
+        <div class="card hide" id="intro">
+            <h1>Code Quiz</h1>
+            <blockquote>
+                <p>Test your knowledge on coding as well as some other trivia.</p>
+            </blockquote>
+            <button>Start Game</button>
+        </div>
+        <div class="card show" id="gameboard">
+            <div class="card_header">
+                <div id="score" class="top_left">
+                    <span>Score</span>
+                    <span>0</span>
+                </div>
+                <div class="top_center">
+                    <h1>Quiz Game</h1>
+                </div>
+                <div id="timer" class="top_right">
+                    <span id="timer_minutes">0</span>
+                    <span>:</span>
+                    <span id="timer_seconds">00</span>
+                </div>
+            </div>
+            <div id="deck" class="card_body">
+                <!-- this space will act as a proving ground -->
+                <!-- each question should be in a panel represented by a tab -->
+
+            </div>
+            <div class="card_footer">
+                <div id="btn_prev" class="bottom_left">
+                    <button title="Previous Question">&laquo;</button>
+                </div>
+                <div id="tabbar" class="bottom_center">
+                    <!-- TODO: How do I want the tabs to appear? -->
+                    <!-- TODO: Can I swap these out for center dots? -->
+                </div>
+                <div id="btn_next" class="bottom_right">
+                    <button title="Next Question">&raquo;</button>
+                </div>
+            </div>
+        </div>
+        <div class="card hide" id="final_score">
+            <div id="your_results">
+                <p>You got <span id="questions_correct"></span> out of <span id="questions_answered"></span>.</p>
+            </div>
+            <div id="your_performance">
+                <p id="grade_100" class="hide">You aced the test! Great job!</p>
+                <p id="grade_90" class="hide">You did good.</p>
+                <p id="grade_80" class="hide">Not bad, but you're getting there.</p>
+                <p id="grade_70" class="hide">It's good, but it could be better. Spend some time practicing.</p>
+                <p id="grade_60" class="hide">Oof! Definitely spend some time with the study group.</p>
+                <p id="grade_50" class="hide">OUCH! What happened?! Don't worry, we can fix this. Let's get a study group going.</p>
+            </div>
+            <div id="enter_initials">
+                <p>You're in the top 10! Enter your initials.</p>
+                <form>
+                    <input type="hidden" name="score" value="" /><!-- get score -->
+                    <input type="hidden" name="datetime" value="" /><!-- get time stamp -->
+                    <input type="hidden" name="solved" value="" /><!-- Show how much time it took to solve it. -->
+                    <input type="input" name="initials" value="" />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="card hide" id="high_scores">
+            <div>
+                <h2>High Scores</h2>
+                <!-- TODO: Generate a table -->
+            </div>
+            <div>
+                <!-- buttons to return to the intro screen (TODO: do similar for other cards)-->
+            </div>
+
         </div>
     </main>
     <footer>

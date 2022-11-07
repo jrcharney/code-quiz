@@ -106,7 +106,7 @@
     {
         "qid": 4,
         "cid": 0,
-        "question": "Which of these architect designed the James S. McDonnel Planetarium?",
+        "question": "Which of these architect designed the James S. McDonnell Planetarium?",
         "options" : [
             {
                 "answer": "Eero Saarinen",
@@ -139,7 +139,7 @@
                 "isCorrect": false
             },
             {
-                "answer": "Fragile Porcelan Mice",
+                "answer": "Fragile Porcelain Mice",
                 "isCorrect": false
             },
             {
@@ -158,7 +158,7 @@
     {
         "qid": 6,
         "cid": 0,
-        "question": "This fictional CEO is best know for saying 'When life gives you lemons, don't make lemonade. Make life take the lemons back!'",
+        "question": "This fictional CEO is best know for saying \"When life gives you lemons, don't make lemonade. Make life take the lemons back!\"",
         "options" : [
             {
                 "answer": "Charles Montgomery Burns",
@@ -187,19 +187,19 @@
         "question": "Which of these movies is not a movie directed by Mel Brooks?",
         "options" : [
             {
-                "answer": "Blazing Saddles",
+                "answer": "<em>Blazing Saddles</em>",
                 "isCorrect": false
             },
             {
-                "answer": "Young Frankenstein",
+                "answer": "<em>Young Frankenstein</em>",
                 "isCorrect": false
             },
             {
-                "answer": "Robin Hood: Men in Tights",
+                "answer": "<em>Robin Hood: Men in Tights</em>",
                 "isCorrect": false
             },
             {
-                "answer": "Scary Movie",
+                "answer": "<em>Scary Movie</em>",
                 "isCorrect": true
             }
         ],
@@ -210,7 +210,7 @@
     {
         "qid": 8,
         "cid": 0,
-        "question": "Which of these women developed the on-board flight software for NASA's Apollo program and is credited with coing the term \"software engineer\"?",
+        "question": "Which of these women developed the on-board flight software for NASA's Apollo program and is credited with coining the term \"software engineer\"?",
         "options" : [
             {
                 "answer": "Valerie Taylor",
@@ -236,7 +236,7 @@
     {
         "qid": 9,
         "cid": 0,
-        "question": "Which of these mathematicians was not featured in Margot Lee Shetterly's 2016 novel <em>Hidden Figures: The America Dream and the Untold Story of the Black Women Who Helped Win the Space Race</i>?",
+        "question": "Which of these mathematicians was not featured in Margot Lee Shetterly's 2016 novel <em>Hidden Figures: The America Dream and the Untold Story of the Black Women Who Helped Win the Space Race</em>?",
         "options" : [
             {
                 "answer": "Katherine Johnson",
@@ -317,19 +317,19 @@
         "question": "Which of these is not a loop construct in JavaScript",
         "options" : [
             {
-                "answer": "for",
+                "answer": "<code>for</code>",
                 "isCorrect": false
             },
             {
-                "answer": "while",
+                "answer": "<code>while</code>",
                 "isCorrect": false
             },
             {
-                "answer": "do...while",
+                "answer": "<code>do...while</code>",
                 "isCorrect": false
             },
             {
-                "answer": "until",
+                "answer": "<code>until</code>",
                 "isCorrect": true
             }
         ],
@@ -343,19 +343,19 @@
         "question": "Which of these is not a conditional construct in JavaScript",
         "options" : [
             {
-                "answer": "if",
+                "answer": "<code>if</code>",
                 "isCorrect": false
             },
             {
-                "answer": "else if",
+                "answer": "<code>else if</code>",
                 "isCorrect": false
             },
             {
-                "answer": "else",
+                "answer": "<code>else</code>",
                 "isCorrect": false
             },
             {
-                "answer": "unless",
+                "answer": "<code>unless</code>",
                 "isCorrect": true
             }
         ],
@@ -369,19 +369,19 @@
         "question": "Which of these is the switch statement in JavaScript",
         "options" : [
             {
-                "answer": "switch...when...else",
+                "answer": "<code>switch...when...else</code>",
                 "isCorrect": false
             },
             {
-                "answer": "switch...case...else",
+                "answer": "<code>switch...case...else</code>",
                 "isCorrect": false
             },
             {
-                "answer": "case...when...else",
+                "answer": "<code>case...when...else</code>",
                 "isCorrect": false
             },
             {
-                "answer": "switch...case...default",
+                "answer": "<code>switch...case...default</code>",
                 "isCorrect": true
             }
         ],
@@ -395,19 +395,19 @@
         "question": "To leave a loop construct early, which keyword is used inside of it?",
         "options" : [
             {
-                "answer": "goto",
+                "answer": "<code>goto</code>",
                 "isCorrect": false
             },
             {
-                "answer": "return",
+                "answer": "<code>return</code>",
                 "isCorrect": false
             },
             {
-                "answer": "continue",
+                "answer": "<code>continue</code>",
                 "isCorrect": false
             },
             {
-                "answer": "break",
+                "answer": "<code>break</code>",
                 "isCorrect": true
             }
         ],
@@ -421,19 +421,19 @@
         "question": "To skip an iteration in a loop construct, which keyword is used inside of it?",
         "options" : [
             {
-                "answer": "goto",
+                "answer": "<code>goto</code>",
                 "isCorrect": false
             },
             {
-                "answer": "return",
+                "answer": "<code>return</code>",
                 "isCorrect": false
             },
             {
-                "answer": "break",
+                "answer": "<code>break</code>",
                 "isCorrect": false
             },
             {
-                "answer": "continue",
+                "answer": "<code>continue</code>",
                 "isCorrect": true
             }
         ],
@@ -447,19 +447,19 @@
         "question": "Which of these describe exception handling in JavaScript?",
         "options" : [
             {
-                "answer": "lie down...try not to cry...cry a lot",
+                "answer": "<code>lie down...try not to cry...cry a lot</code>",
                 "isCorrect": false
             },
             {
-                "answer": "begin...rescue...else...ensure...end",
+                "answer": "<code>begin...rescue...else...ensure...end</code>",
                 "isCorrect": false
             },
             {
-                "answer": "try...except...finally",
+                "answer": "<code>try...except...finally</code>",
                 "isCorrect": false
             },
             {
-                "answer": "try...catch...finally",
+                "answer": "<code>try...catch...finally</code>",
                 "isCorrect": true
             }
         ],
@@ -470,22 +470,22 @@
     {
         "qid": 18,
         "cid": 0,
-        "question": "Which of these javascript statements has the same meaning as the <code>:root</code> keyword in CSS?",
+        "question": "Which of these JavaScript statements has the same meaning as the <code>:root</code> keyword in CSS?",
         "options" : [
             {
-                "answer": "window.documentElement",
+                "answer": "<code>window.documentElement</code>",
                 "isCorrect": false
             },
             {
-                "answer": "document.querySelector('html')",
+                "answer": "<code>document.querySelector('html')</code>",
                 "isCorrect": false
             },
             {
-                "answer": "document.querySelector('root')",
+                "answer": "<code>document.querySelector('root')</code>",
                 "isCorrect": false
             },
             {
-                "answer": "document.documentElement",
+                "answer": "<code>document.documentElement</code>",
                 "isCorrect": true
             }
         ],
@@ -522,7 +522,7 @@
     {
         "qid": 20,
         "cid": 0,
-        "question": "Silicon Valley refers to the South Bay area of Northern California's San Francisco Bay Area.  What metropolitian area that is not on the West Coast is known as Silicon Prarie?",
+        "question": "Silicon Valley refers to the South Bay area of Northern California's San Francisco Bay Area.  What metropolitan area that is not on the West Coast is known as Silicon Prairie?",
         "options" : [
             {
                 "answer": "Cortex Innovation Community",
@@ -548,22 +548,22 @@
     {
         "qid": 21,
         "cid": 0,
-        "question": "It is recommended that you use this API to do Asynchronous JavaScript and XML (AJAX) requests. It's definely much simpler that it was in the old days.",
+        "question": "It is recommended that you use this API to do Asynchronous JavaScript and XML (AJAX) requests. It's definitely much simpler that it was in the old days.",
         "options" : [
             {
-                "answer": "ActiveXObject(\"Microsoft.XMLHTTP\")",
+                "answer": "<code>ActiveXObject(\"Microsoft.XMLHTTP\")</code>",
                 "isCorrect": false
             },
             {
-                "answer": "XMLHttpRequest",
+                "answer": "<code>XMLHttpRequest</code>",
                 "isCorrect": false
             },
             {
-                "answer": "jQuery",
+                "answer": "<code>jQuery</code>",
                 "isCorrect": false
             },
             {
-                "answer": "fetch",
+                "answer": "<code>fetch</code>",
                 "isCorrect": true
             }
         ],
@@ -577,19 +577,19 @@
         "question": "Use this API to construct a set of key-value pairs representing form fields and their values which can then be easily sent using the <code>fetch()</code> or <code>XMLHttpRequest.send()</code> method.",
         "options" : [
             {
-                "answer": "CharacterData",
+                "answer": "<code>CharacterData</code>",
                 "isCorrect": false
             },
             {
-                "answer": "AudioData",
+                "answer": "<code>AudioData</code>",
                 "isCorrect": false
             },
             {
-                "answer": "ImageData",
+                "answer": "<code>ImageData</code>",
                 "isCorrect": false
             },
             {
-                "answer": "FormData",
+                "answer": "<code>FormData</code>",
                 "isCorrect": true
             }
         ],
@@ -603,19 +603,19 @@
         "question": "Some say that it was \"political correctness\" that drove Git developers to use this as the default branch of their projects. Honestly, it just sounds better.",
         "options" : [
             {
-                "answer": "system",
+                "answer": "<code>system</code>",
                 "isCorrect": false
             },
             {
-                "answer": "development",
+                "answer": "<code>development</code>",
                 "isCorrect": false
             },
             {
-                "answer": "production",
+                "answer": "<code>production</code>",
                 "isCorrect": false
             },
             {
-                "answer": "main",
+                "answer": "<code>main</code>",
                 "isCorrect": true
             }
         ],
@@ -626,7 +626,7 @@
     {
         "qid": 24,
         "cid": 0,
-        "question": "It wasn't named after me, but this data format created by Douglas Crockford and Chip Morningstar defintely catches my ear when someone says it.",
+        "question": "It wasn't named after me, but this data format created by Douglas Crockford and Chip Morningstar definitely catches my ear when someone says it.",
         "options" : [
             {
                 "answer": "TOML",
@@ -759,19 +759,19 @@
         "question": "Before there was flex or grid display layouts, web developer had to use this CSS property to use a two or three column layout. Don't forget to add a <code>&lt;div style=\"clear:both;\"&gt;&lt;/div&gt;</code> when you are done using it.",
         "options" : [
             {
-                "answer": "overflow",
+                "answer": "<code>overflow</code>",
                 "isCorrect": false
             },
             {
-                "answer": "position",
+                "answer": "<code>position</code>",
                 "isCorrect": false
             },
             {
-                "answer": "display",
+                "answer": "<code>display</code>",
                 "isCorrect": false
             },
             {
-                "answer": "float",
+                "answer": "<code>float</code>",
                 "isCorrect": true
             }
         ],
@@ -782,7 +782,7 @@
     {
         "qid": 30,
         "cid": 0,
-        "question": "The name of the Web Accessibility Initiative (WAI) is paired with this acronym to add semantic and metadata content to HTML to allow people with disabilites to use assistive technologies ito interact with the modern web.",
+        "question": "The name of the Web Accessibility Initiative (WAI) is paired with this acronym to add semantic and metadata content to HTML to allow people with disabilities to use assistive technologies ito interact with the modern web.",
         "options" : [
             {
                 "answer": "ARRIBA",
@@ -863,19 +863,19 @@
         "question": "Where <code>el</code> is an object that is an instance of <code>HTMLElement</code>, <code>prop</code> is a string representing a CSS property, and <code>val</code> could be a number or string, <code>el.style.setProperty(prop,val)</code> is an easy way in JavaScript to set a CSS style, but what is used get a style property of an element?",
         "options" : [
             {
-                "answer": "el.getAttribute(\"style\")",
+                "answer": "<code>el.getAttribute(\"style\")</code>",
                 "isCorrect": false
             },
             {
-                "answer": "el.style.prop",
+                "answer": "<code>el.style.prop</code>",
                 "isCorrect": false
             },
             {
-                "answer": "el.style[\"prop\"]",
+                "answer": "<code>el.style[\"prop\"]</code>",
                 "isCorrect": false
             },
             {
-                "answer": "getComputedStyle(el).getPropertyValue(prop)",
+                "answer": "<code>getComputedStyle(el).getPropertyValue(prop)</code>",
                 "isCorrect": true
             }
         ],
@@ -889,19 +889,19 @@
         "question": "Some people would rather use the inline <code>onclick</code> attribute to an HTML element, but it would be better if you did that in a JavaScript file, assuming your use <code>el</code> to represent an instance of <code>HTMLElement</code> to execute the method <code>func</code>.",
         "options" : [
             {
-                "answer": "el.attachEvent(\"click\",func)",
+                "answer": "<code>el.attachEvent(\"click\",func)</code>",
                 "isCorrect": false
             },
             {
-                "answer": "el.on(\"click\",func)",
+                "answer": "<code>el.on(\"click\",func)</code>",
                 "isCorrect": false
             },
             {
-                "answer": "el.onclick=func",
+                "answer": "<code>el.onclick=func</code>",
                 "isCorrect": false
             },
             {
-                "answer": "el.addEventListener(\"click\",func)",
+                "answer": "<code>el.addEventListener(\"click\",func)</code>",
                 "isCorrect": true
             }
         ],
@@ -915,19 +915,19 @@
         "question": "The reason why it is important to use the <code>name</code> attribute in form elements, especially checkboxes and radio buttons which need to share a name, is so that when you use this function, you can test to see which elements are <code>checked</code> and use their value attributes.",
         "options" : [
             {
-                "answer": "document.geElementById",
+                "answer": "<code>document.geElementById</code>",
                 "isCorrect": false
             },
             {
-                "answer": "document.getElementsByClassName",
+                "answer": "<code>document.getElementsByClassName</code>",
                 "isCorrect": false
             },
             {
-                "answer": "document.getElementsByTagName",
+                "answer": "<code>document.getElementsByTagName</code>",
                 "isCorrect": false
             },
             {
-                "answer": "document.getElementsByName",
+                "answer": "<code>document.getElementsByName</code>",
                 "isCorrect": true
             }
         ],
@@ -938,7 +938,7 @@
     {
         "qid": 36,
         "cid": 0,
-        "question": "Start writing a new HTML file with a bang (<code>!</code>) with this extension that is avaiable not just in VSCode but other code editors.",
+        "question": "Start writing a new HTML file with a bang (<code>!</code>) with this extension that is available not just in VSCode but other code editors.",
         "options" : [
             {
                 "answer": "ESLint",
@@ -1198,22 +1198,22 @@
     {
         "qid": 46,
         "cid": 0,
-        "question": "What other than the <code>blockquote</code> keyword, what other command will Emmet recognize to insert block quotes?",
+        "question": "Other than the <code>blockquote</code> keyword, what other command will Emmet recognize to insert a block quotes element?",
         "options" : [
             {
-                "answer": "b",
+                "answer": "<code>b</code>",
                 "isCorrect": false
             },
             {
-                "answer": "cite",
+                "answer": "<code>cite</code>",
                 "isCorrect": false
             },
             {
-                "answer": "q",
+                "answer": "<code>q</code>",
                 "isCorrect": false
             },
             {
-                "answer": "bq",
+                "answer": "<code>bq</code>",
                 "isCorrect": true
             }
         ],
