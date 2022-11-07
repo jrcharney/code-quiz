@@ -1,0 +1,47 @@
+[
+    {
+        "cid" : 0,
+        "category" : "HTML"
+    },
+    {
+        "cid" : 1,
+        "category" : "CSS"
+    },
+    {
+        "cid" : 2,
+        "category" : "JavaScript"
+    },
+    {
+        "cid" : 3,
+        "category" : "Git"
+    },
+    {
+        "cid" : 4,
+        "category" : "Linux"
+    },
+    {
+        "cid" : 5,
+        "category" : "Computer Science"
+    },
+    {
+        "cid" : 6,
+        "category" : "Tech History" 
+    },
+    {
+        "cid" : 7,
+        "category" : "Emmet"
+    },
+    {
+        "cid" : 8,
+        "category" : "Video Games"
+    },
+    {
+        "cid" : 9,
+        "category" : "Math"
+    },
+    {
+        "cid" : 10,
+        "category" : "Potpourri"
+    }
+    
+]

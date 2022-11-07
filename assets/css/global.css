@@ -49,39 +49,3 @@ blockquote {
     padding: 3px;
     box-shadow: var(--bsh);
 }
-
-/* Adding a ribbon */
-.ribbon {
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    letter-spacing: 1px;
-    background-color: #D90; /* TODO: Change this color to something that reflects the theme better */
-    color: #f0f0f0;
-    box-shadow: -5px 5px 3px rgba(0,0,0,.3);
-    width: 300px;
-    top: 55px;
-    right: -70px;
-    left: auto;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-  
-/* TODO: Change to theme colors */
-.ribbon a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-}
-.ribbon a[href]:link{
-    color: #000;
-}
-.ribbon a[href]:visited{
-    color: #000;
-}
-.ribbon a[href]:active{
-    color: #333;
-}
-.ribbon a[href]:hover{
-    color: #333;
-}

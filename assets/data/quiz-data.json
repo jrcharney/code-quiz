@@ -1,0 +1,1302 @@
+[
+    {
+        "qid": 0,
+        "cid": 0,
+        "question": "Which of these programming languages was not created before 1960?",
+        "options" : [
+            {
+                "answer": "FORTRAN",
+                "isCorrect": false
+            },
+            {
+                "answer": "LISP",
+                "isCorrect": false
+            },
+            {
+                "answer": "COBOL",
+                "isCorrect": false
+            },
+            {
+                "answer": "BASIC",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 1,
+        "cid": 0,
+        "question": "This man is widely considered to be the father of theoretical computer science and artificial intelligence.",
+        "options" : [
+            {
+                "answer": "Steve Job",
+                "isCorrect": false
+            },
+            {
+                "answer": "Bill Gates",
+                "isCorrect": false
+            },
+            {
+                "answer": "Mark Zuckerberg",
+                "isCorrect": false
+            },
+            {
+                "answer": "Alan Turing",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 2,
+        "cid": 0,
+        "question": "This man invented the first electric car",
+        "options" : [
+            {
+                "answer": "Elon Musk",
+                "isCorrect": false
+            },
+            {
+                "answer": "Henry Ford",
+                "isCorrect": false
+            },
+            {
+                "answer": "William Morrison",
+                "isCorrect": false
+            },
+            {
+                "answer": "Robert Anderson",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 3,
+        "cid": 0,
+        "question": "Which of these architects designed the Gateway Arch?",
+        "options" : [
+            {
+                "answer": "Frank Lloyd Wright",
+                "isCorrect": false
+            },
+            {
+                "answer": "Paul Williams",
+                "isCorrect": false
+            },
+            {
+                "answer": "Minoru Yamasaki",
+                "isCorrect": false
+            },
+            {
+                "answer": "Eero Saarinen",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 4,
+        "cid": 0,
+        "question": "Which of these architect designed the James S. McDonnel Planetarium?",
+        "options" : [
+            {
+                "answer": "Eero Saarinen",
+                "isCorrect": false
+            },
+            {
+                "answer": "Minoru Yamasaki",
+                "isCorrect": false
+            },
+            {
+                "answer": "Andy Cohen",
+                "isCorrect": false
+            },
+            {
+                "answer": "Gyo Obata",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 5,
+        "cid": 0,
+        "question": "Steve Ewing of Steve's Hot Dog is the lead singer of this band whose song is played every time the Blues score a goal at the Enterprise Center.",
+        "options" : [
+            {
+                "answer": "Gravity Kills",
+                "isCorrect": false
+            },
+            {
+                "answer": "Fragile Porcelan Mice",
+                "isCorrect": false
+            },
+            {
+                "answer": "Cavo",
+                "isCorrect": false
+            },
+            {
+                "answer": "The Urge",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 6,
+        "cid": 0,
+        "question": "This fictional CEO is best know for saying 'When life gives you lemons, don't make lemonade. Make life take the lemons back!'",
+        "options" : [
+            {
+                "answer": "Charles Montgomery Burns",
+                "isCorrect": false
+            },
+            {
+                "answer": "Tony Stark",
+                "isCorrect": false
+            },
+            {
+                "answer": "Andrew Ryan",
+                "isCorrect": false
+            },
+            {
+                "answer": "Cave Johnson",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 7,
+        "cid": 0,
+        "question": "Which of these movies is not a movie directed by Mel Brooks?",
+        "options" : [
+            {
+                "answer": "Blazing Saddles",
+                "isCorrect": false
+            },
+            {
+                "answer": "Young Frankenstein",
+                "isCorrect": false
+            },
+            {
+                "answer": "Robin Hood: Men in Tights",
+                "isCorrect": false
+            },
+            {
+                "answer": "Scary Movie",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 8,
+        "cid": 0,
+        "question": "Which of these women developed the on-board flight software for NASA's Apollo program and is credited with coing the term \"software engineer\"?",
+        "options" : [
+            {
+                "answer": "Valerie Taylor",
+                "isCorrect": false
+            },
+            {
+                "answer": "Ada Lovelace",
+                "isCorrect": false
+            },
+            {
+                "answer": "Grace Hopper",
+                "isCorrect": false
+            },
+            {
+                "answer": "Margaret Hamilton",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 9,
+        "cid": 0,
+        "question": "Which of these mathematicians was not featured in Margot Lee Shetterly's 2016 novel <em>Hidden Figures: The America Dream and the Untold Story of the Black Women Who Helped Win the Space Race</i>?",
+        "options" : [
+            {
+                "answer": "Katherine Johnson",
+                "isCorrect": false
+            },
+            {
+                "answer": "Dorothy Vaughan",
+                "isCorrect": false
+            },
+            {
+                "answer": "Mary Jackson",
+                "isCorrect": false
+            },
+            {
+                "answer": "Melba Roy Mouton",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 10,
+        "cid": 0,
+        "question": "In mathematics and computer programming, what mnemonic acronym is used to remember precedence, also known as the order of operations?",
+        "options" : [
+            {
+                "answer": "ADIDAS",
+                "isCorrect": false
+            },
+            {
+                "answer": "SENPAI",
+                "isCorrect": false
+            },
+            {
+                "answer": "SOH-CAH-TOA",
+                "isCorrect": false
+            },
+            {
+                "answer": "PEMDAS",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 11,
+        "cid": 0,
+        "question": "In analytical geometry, which of the following conic sections has an eccentricity of one and can open in four different direction.",
+        "options" : [
+            {
+                "answer": "circle",
+                "isCorrect": false
+            },
+            {
+                "answer": "ellipse",
+                "isCorrect": false
+            },
+            {
+                "answer": "hyperbola",
+                "isCorrect": false
+            },
+            {
+                "answer": "parabola",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 12,
+        "cid": 0,
+        "question": "Which of these is not a loop construct in JavaScript",
+        "options" : [
+            {
+                "answer": "for",
+                "isCorrect": false
+            },
+            {
+                "answer": "while",
+                "isCorrect": false
+            },
+            {
+                "answer": "do...while",
+                "isCorrect": false
+            },
+            {
+                "answer": "until",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 13,
+        "cid": 0,
+        "question": "Which of these is not a conditional construct in JavaScript",
+        "options" : [
+            {
+                "answer": "if",
+                "isCorrect": false
+            },
+            {
+                "answer": "else if",
+                "isCorrect": false
+            },
+            {
+                "answer": "else",
+                "isCorrect": false
+            },
+            {
+                "answer": "unless",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 14,
+        "cid": 0,
+        "question": "Which of these is the switch statement in JavaScript",
+        "options" : [
+            {
+                "answer": "switch...when...else",
+                "isCorrect": false
+            },
+            {
+                "answer": "switch...case...else",
+                "isCorrect": false
+            },
+            {
+                "answer": "case...when...else",
+                "isCorrect": false
+            },
+            {
+                "answer": "switch...case...default",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 15,
+        "cid": 0,
+        "question": "To leave a loop construct early, which keyword is used inside of it?",
+        "options" : [
+            {
+                "answer": "goto",
+                "isCorrect": false
+            },
+            {
+                "answer": "return",
+                "isCorrect": false
+            },
+            {
+                "answer": "continue",
+                "isCorrect": false
+            },
+            {
+                "answer": "break",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 16,
+        "cid": 0,
+        "question": "To skip an iteration in a loop construct, which keyword is used inside of it?",
+        "options" : [
+            {
+                "answer": "goto",
+                "isCorrect": false
+            },
+            {
+                "answer": "return",
+                "isCorrect": false
+            },
+            {
+                "answer": "break",
+                "isCorrect": false
+            },
+            {
+                "answer": "continue",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 17,
+        "cid": 0,
+        "question": "Which of these describe exception handling in JavaScript?",
+        "options" : [
+            {
+                "answer": "lie down...try not to cry...cry a lot",
+                "isCorrect": false
+            },
+            {
+                "answer": "begin...rescue...else...ensure...end",
+                "isCorrect": false
+            },
+            {
+                "answer": "try...except...finally",
+                "isCorrect": false
+            },
+            {
+                "answer": "try...catch...finally",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 18,
+        "cid": 0,
+        "question": "Which of these javascript statements has the same meaning as the <code>:root</code> keyword in CSS?",
+        "options" : [
+            {
+                "answer": "window.documentElement",
+                "isCorrect": false
+            },
+            {
+                "answer": "document.querySelector('html')",
+                "isCorrect": false
+            },
+            {
+                "answer": "document.querySelector('root')",
+                "isCorrect": false
+            },
+            {
+                "answer": "document.documentElement",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 19,
+        "cid": 0,
+        "question": "In the 2010s techno-thriller series <em>Mr. Robot</em>, who played the titulary character?",
+        "options" : [
+            {
+                "answer": "Rami Malek",
+                "isCorrect": false
+            },
+            {
+                "answer": "Carly Chaikin",
+                "isCorrect": false
+            },
+            {
+                "answer": "Martin Wallström",
+                "isCorrect": false
+            },
+            {
+                "answer": "Christian Slater",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 20,
+        "cid": 0,
+        "question": "Silicon Valley refers to the South Bay area of Northern California's San Francisco Bay Area.  What metropolitian area that is not on the West Coast is known as Silicon Prarie?",
+        "options" : [
+            {
+                "answer": "Cortex Innovation Community",
+                "isCorrect": false
+            },
+            {
+                "answer": "The Research Triangle",
+                "isCorrect": false
+            },
+            {
+                "answer": "Chicagoland",
+                "isCorrect": false
+            },
+            {
+                "answer": "Dallas-Forth Worth Metroplex",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 21,
+        "cid": 0,
+        "question": "It is recommended that you use this API to do Asynchronous JavaScript and XML (AJAX) requests. It's definely much simpler that it was in the old days.",
+        "options" : [
+            {
+                "answer": "ActiveXObject(\"Microsoft.XMLHTTP\")",
+                "isCorrect": false
+            },
+            {
+                "answer": "XMLHttpRequest",
+                "isCorrect": false
+            },
+            {
+                "answer": "jQuery",
+                "isCorrect": false
+            },
+            {
+                "answer": "fetch",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 22,
+        "cid": 0,
+        "question": "Use this API to construct a set of key-value pairs representing form fields and their values which can then be easily sent using the <code>fetch()</code> or <code>XMLHttpRequest.send()</code> method.",
+        "options" : [
+            {
+                "answer": "CharacterData",
+                "isCorrect": false
+            },
+            {
+                "answer": "AudioData",
+                "isCorrect": false
+            },
+            {
+                "answer": "ImageData",
+                "isCorrect": false
+            },
+            {
+                "answer": "FormData",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 23,
+        "cid": 0,
+        "question": "Some say that it was \"political correctness\" that drove Git developers to use this as the default branch of their projects. Honestly, it just sounds better.",
+        "options" : [
+            {
+                "answer": "system",
+                "isCorrect": false
+            },
+            {
+                "answer": "development",
+                "isCorrect": false
+            },
+            {
+                "answer": "production",
+                "isCorrect": false
+            },
+            {
+                "answer": "main",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 24,
+        "cid": 0,
+        "question": "It wasn't named after me, but this data format created by Douglas Crockford and Chip Morningstar defintely catches my ear when someone says it.",
+        "options" : [
+            {
+                "answer": "TOML",
+                "isCorrect": false
+            },
+            {
+                "answer": "XML",
+                "isCorrect": false
+            },
+            {
+                "answer": "YAML",
+                "isCorrect": false
+            },
+            {
+                "answer": "JSON",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 25,
+        "cid": 0,
+        "question": "If you use this lightweight markup format on Github or Dev.to, you can use it with extensions like MathJax to render math or Mermaid to produce various charts.",
+        "options" : [
+            {
+                "answer": "YAML",
+                "isCorrect": false
+            },
+            {
+                "answer": "JSON",
+                "isCorrect": false
+            },
+            {
+                "answer": "MediaWiki",
+                "isCorrect": false
+            },
+            {
+                "answer": "Markdown",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 26,
+        "cid": 0,
+        "question": "Which of these parody songs by Weird Al Yankovic that brags about having the latest technology could be considered technologically obsolete in 2022?",
+        "options" : [
+            {
+                "answer": "Fat",
+                "isCorrect": false
+            },
+            {
+                "answer": "Eat It",
+                "isCorrect": false
+            },
+            {
+                "answer": "White and Nerdy",
+                "isCorrect": false
+            },
+            {
+                "answer": "All About The Pentiums",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 27,
+        "cid": 0,
+        "question": "This Canadian YouTuber has a weekly tech live stream called The WAN Show...but first, you'll need to listen to this segue from our sponsor.",
+        "options" : [
+            {
+                "answer": "Imane \"Pokimane\" Anys",
+                "isCorrect": false
+            },
+            {
+                "answer": "Leo Laporte",
+                "isCorrect": false
+            },
+            {
+                "answer": "Andrew Huang",
+                "isCorrect": false
+            },
+            {
+                "answer": "Linus Sebastian",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 28,
+        "cid": 0,
+        "question": "If you have $200, you can buy a mesh parabolic dish kit on Amazon which includes this $25 device to download weather radar images from space.",
+        "options" : [
+            {
+                "answer": "Digital Oscilloscope",
+                "isCorrect": false
+            },
+            {
+                "answer": "Raspberry Pi",
+                "isCorrect": false
+            },
+            {
+                "answer": "Dopplar On Wheels",
+                "isCorrect": false
+            },
+            {
+                "answer": "Software Defined Radio",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 29,
+        "cid": 0,
+        "question": "Before there was flex or grid display layouts, web developer had to use this CSS property to use a two or three column layout. Don't forget to add a <code>&lt;div style=\"clear:both;\"&gt;&lt;/div&gt;</code> when you are done using it.",
+        "options" : [
+            {
+                "answer": "overflow",
+                "isCorrect": false
+            },
+            {
+                "answer": "position",
+                "isCorrect": false
+            },
+            {
+                "answer": "display",
+                "isCorrect": false
+            },
+            {
+                "answer": "float",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 30,
+        "cid": 0,
+        "question": "The name of the Web Accessibility Initiative (WAI) is paired with this acronym to add semantic and metadata content to HTML to allow people with disabilites to use assistive technologies ito interact with the modern web.",
+        "options" : [
+            {
+                "answer": "ARRIBA",
+                "isCorrect": false
+            },
+            {
+                "answer": "AJAX",
+                "isCorrect": false
+            },
+            {
+                "answer": "ARPA",
+                "isCorrect": false
+            },
+            {
+                "answer": "ARIA",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 31,
+        "cid": 0,
+        "question": "In 2022, this area code was added as an overlay to the 314 area code, the first in Missouri.",
+        "options" : [
+            {
+                "answer": "660",
+                "isCorrect": false
+            },
+            {
+                "answer": "573",
+                "isCorrect": false
+            },
+            {
+                "answer": "636",
+                "isCorrect": false
+            },
+            {
+                "answer": "557",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 32,
+        "cid": 0,
+        "question": "This app's owl mascot has a history of being terrifying for people who don't keep up with their language lessons, and soon he'll be just as scary for those who don't study math.",
+        "options" : [
+            {
+                "answer": "Angry Birds",
+                "isCorrect": false
+            },
+            {
+                "answer": "TripAdvisor",
+                "isCorrect": false
+            },
+            {
+                "answer": "Twitter",
+                "isCorrect": false
+            },
+            {
+                "answer": "Duolingo",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 33,
+        "cid": 0,
+        "question": "Where <code>el</code> is an object that is an instance of <code>HTMLElement</code>, <code>prop</code> is a string representing a CSS property, and <code>val</code> could be a number or string, <code>el.style.setProperty(prop,val)</code> is an easy way in JavaScript to set a CSS style, but what is used get a style property of an element?",
+        "options" : [
+            {
+                "answer": "el.getAttribute(\"style\")",
+                "isCorrect": false
+            },
+            {
+                "answer": "el.style.prop",
+                "isCorrect": false
+            },
+            {
+                "answer": "el.style[\"prop\"]",
+                "isCorrect": false
+            },
+            {
+                "answer": "getComputedStyle(el).getPropertyValue(prop)",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 34,
+        "cid": 0,
+        "question": "Some people would rather use the inline <code>onclick</code> attribute to an HTML element, but it would be better if you did that in a JavaScript file, assuming your use <code>el</code> to represent an instance of <code>HTMLElement</code> to execute the method <code>func</code>.",
+        "options" : [
+            {
+                "answer": "el.attachEvent(\"click\",func)",
+                "isCorrect": false
+            },
+            {
+                "answer": "el.on(\"click\",func)",
+                "isCorrect": false
+            },
+            {
+                "answer": "el.onclick=func",
+                "isCorrect": false
+            },
+            {
+                "answer": "el.addEventListener(\"click\",func)",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 35,
+        "cid": 0,
+        "question": "The reason why it is important to use the <code>name</code> attribute in form elements, especially checkboxes and radio buttons which need to share a name, is so that when you use this function, you can test to see which elements are <code>checked</code> and use their value attributes.",
+        "options" : [
+            {
+                "answer": "document.geElementById",
+                "isCorrect": false
+            },
+            {
+                "answer": "document.getElementsByClassName",
+                "isCorrect": false
+            },
+            {
+                "answer": "document.getElementsByTagName",
+                "isCorrect": false
+            },
+            {
+                "answer": "document.getElementsByName",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 36,
+        "cid": 0,
+        "question": "Start writing a new HTML file with a bang (<code>!</code>) with this extension that is avaiable not just in VSCode but other code editors.",
+        "options" : [
+            {
+                "answer": "ESLint",
+                "isCorrect": false
+            },
+            {
+                "answer": "Prettier",
+                "isCorrect": false
+            },
+            {
+                "answer": "Stylelint",
+                "isCorrect": false
+            },
+            {
+                "answer": "Emmet",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 37,
+        "cid": 0,
+        "question": "The programming language was designed by Bredan Eich in 1995 supposedly within a week.",
+        "options" : [
+            {
+                "answer": "Java",
+                "isCorrect": false
+            },
+            {
+                "answer": "PHP",
+                "isCorrect": false
+            },
+            {
+                "answer": "Ruby",
+                "isCorrect": false
+            },
+            {
+                "answer": "JavaScript",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 38,
+        "cid": 0,
+        "question": "Busch Stadium in Downtown St. Louis is surrounded by roads on all four sides. On which corner of the building is home plate the closest?",
+        "options" : [
+            {
+                "answer": "8th Street and Clark Avenue",
+                "isCorrect": false
+            },
+            {
+                "answer": "South Broadway and Clark Avenue",
+                "isCorrect": false
+            },
+            {
+                "answer": "South Broadway and Highway 40",
+                "isCorrect": false
+            },
+            {
+                "answer": "8th Street and Highway 40",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 39,
+        "cid": 0,
+        "question": "This actor was the voice of K.I.T.T. on <em>Knight Rider</em>, but his name didn't appear in the opening credits.  I'm sure Mr. Feeny would have something to say about that if the show was in the <em>Boy Meets World</em> universe!",
+        "options" : [
+            {
+                "answer": "David Hasselhoff",
+                "isCorrect": false
+            },
+            {
+                "answer": "Edward Mulhare",
+                "isCorrect": false
+            },
+            {
+                "answer": "Peter Cullen",
+                "isCorrect": false
+            },
+            {
+                "answer": "William Daniels",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 40,
+        "cid": 0,
+        "question": "Which of these is not considered a semantic element?",
+        "options" : [
+            {
+                "answer": "<code>&lt;header&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;footer&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;main&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;div&gt;</code>",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 41,
+        "cid": 0,
+        "question": "Which of these is not a type of list.",
+        "options" : [
+            {
+                "answer": "<code>&lt;ul&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;ol&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;dl&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;fieldset&gt;</code>",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 42,
+        "cid": 0,
+        "question": "Which of these elements is not used to make a definition list",
+        "options" : [
+            {
+                "answer": "<code>&lt;dl&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;dt&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;dd&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;dfn&gt;</code>",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 43,
+        "cid": 0,
+        "question": "This turquoise-haired anime character, code name CV01, has been the anthropomorphic mascot of Crypto Future Media's Vocaloid software voicebank since 2007.",
+        "options" : [
+            {
+                "answer": "Hakubi Ryoko",
+                "isCorrect": false
+            },
+            {
+                "answer": "Ayanami Rei",
+                "isCorrect": false
+            },
+            {
+                "answer": "Mizuno Ami",
+                "isCorrect": false
+            },
+            {
+                "answer": "Hatsune Miku",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 44,
+        "cid": 0,
+        "question": "These tags have been deprecated since HTML 4.0 (over 20 years ago!), but there are still people who use them in the age of HTML 5. Please don't use them!",
+        "options" : [
+            {
+                "answer": "<code>&lt;div&gt;</code> and <code>&lt;span&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;b&gt;</code> and <code>&lt;i&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;font&gt;</code> and <code>&lt;center&gt;</code>",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 45,
+        "cid": 0,
+        "question": "These tags were brought back to HTML 5 after they were deprecated in HTML 4.",
+        "options" : [
+            {
+                "answer": "<code>&lt;map&gt;</code> and <code>&lt;area&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;frameset&gt;</code> and <code>&lt;frame&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;blink&gt;</code> and <code>&lt;marquee&gt;</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>&lt;s&gt;</code> and <code>&lt;u&gt;</code>",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 46,
+        "cid": 0,
+        "question": "What other than the <code>blockquote</code> keyword, what other command will Emmet recognize to insert block quotes?",
+        "options" : [
+            {
+                "answer": "b",
+                "isCorrect": false
+            },
+            {
+                "answer": "cite",
+                "isCorrect": false
+            },
+            {
+                "answer": "q",
+                "isCorrect": false
+            },
+            {
+                "answer": "bq",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 47,
+        "cid": 0,
+        "question": "If I wanted to use Emmet to build a thesaurus with a definition list that had five terms and each term had two definition what would the code look like to process that request in my text editor?",
+        "options" : [
+            {
+                "answer": "<code>dl&gt;dt+dd*10</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>dl&gt;(dt+dd)*10</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>dl&gt;(dt+dd*5)*2</code>",
+                "isCorrect": false
+            },
+            {
+                "answer": "<code>dl&gt;(dt+dd*2)*5</code>",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 48,
+        "cid": 0,
+        "question": "How many levels deep do the HTML header elements go?",
+        "options" : [
+            {
+                "answer": "10",
+                "isCorrect": false
+            },
+            {
+                "answer": "5",
+                "isCorrect": false
+            },
+            {
+                "answer": "8",
+                "isCorrect": false
+            },
+            {
+                "answer": "6",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    },
+    {
+        "qid": 49,
+        "cid": 0,
+        "question": "In programming, the acronym CRUD describes the four basic operations of persistent storage. What does each letter mean?",
+        "options" : [
+            {
+                "answer": "Craft, Redo, Undo, Dismantle",
+                "isCorrect": false
+            },
+            {
+                "answer": "Canoe Raft Ultra Duty",
+                "isCorrect": false
+            },
+            {
+                "answer": "Dodge, Duck, Dip, Dive and Dodge",
+                "isCorrect": false
+            },
+            {
+                "answer": "Create, Read, Update, and Delete",
+                "isCorrect": true
+            }
+        ],
+        "answered" : false,
+        "correct"  : false,
+        "value" : 10
+    }
+]
