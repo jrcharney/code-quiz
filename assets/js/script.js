@@ -26,8 +26,8 @@ async function readQuizData(){
     //console.log(questions.length);    // 50
 
     const gameboard = qs("#gameboard");
-    const deck   = qs("#deck");
-    const tabbar = qs("#tabbar");
+    const deck   = qs("#deck");             // where our questions will go
+    const tabbar = qs("#tabbar");           // Where our tabs will go
     //testing.innerHTML = questions;
 
     const a_prefixes = ["A","B","C","D"];
@@ -36,19 +36,21 @@ async function readQuizData(){
     let pick = lottery(QUESTIONS_PER_QUIZ,questions.length);
     //console.log(pick);           // Show which questions we are using
 
-
-    //const quiz = ce("dl");      // TODO: This needs to be some form object later
-
-    //testing.append(quiz);
     for(let i = 0; i < pick.length; i++){
-        let qtab   = ce("div",{"class":"tab"});      // The tab that will go in the bottom-center
-        let qpanel = ce("div",{"class":"panel"});    // the panel that will go in the card-body
+        let qnum  = `${i+1}`;                                       // question number.
+        let qtab   = ce("div",{
+            "id" : `tab_${qnum}`,
+            "class":"tab"
+        });      // The tab that will go in the bottom-center
+        let qpanel = ce("div",{
+            "id": `panel_${qnum}`,
+            "class":"panel"
+        });    // the panel that will go in the card-body
 
         // Display our question        
         let qidx  = pick[i];                                        // question index
         let qp    = ce("p",{"class":"question"});                   // question element
         let qtext = questions[qidx].question;                       // question text
-        let qnum  = `${i+1}`;                                       // question number.
         html(qtab)(qnum);                                           // use this prefix in our tab.
         tabbar.append(qtab);                                        // Add our new tab to the tabbar.
         html(qp)(`${qnum}. ${qtext}`);                              // use our number as a prefix with our question in our question element.
@@ -72,27 +74,89 @@ async function readQuizData(){
                 "id": oid,
                 "name": oname,
                 "value" : `${correct}`
-            });
-            let olabel  = ce("label",{"for":oid});
-            html(olabel)(`${oprefix}. ${option}`);
+            });                                                     // Create our radio button with attributes
+            //let olabel  = ce("label",{"for":oid});
+            //html(olabel)(`${oprefix}. ${option}`);
+            let olabel = html(ce("label",{"for":oid}))(`${oprefix}. ${option}`);    // This will do what those two previous lines did.
             //console.log(olabel);
-            //qoptions.append(oradio,olabel,"<br/>");
-            qoptions.append(oradio,olabel,ce("br"));
+            //qoptions.append(oradio,olabel,"<br/>");       // nope (because append will treat "<br/>" as raw text)
+            qoptions.append(oradio,olabel,ce("br"));        // yes! (because now we created a <br/> element)
             //console.log(qoptions);
         }
         qpanel.append(qoptions);
-
-        console.log(qpanel);
+        // console.log(qpanel);
+        
         deck.append(qpanel);
 
         // TODO: once an item is selected, no backsies! Disable the buttons, report if it was right or wrong
         // TODO: Need backward and forward buttons
 
-        //for(let j = 0; j < question[i].options.length; j++)
     }
+
+    /* Our tabs and panels now have events! */
+    const tabs = Array.from(tabbar.children);
+    const panels = Array.from(deck.children);
+
+    // Mark the first tab selected
+    //Array.from(tabbar.children)
+    tabs.at(0).classList.add("selected");
     
+    // Show the first question
+    panels.forEach((panel,idx) => {
+        if(idx !== 0){
+            panel.classList.add("hide");
+        }else{
+            panel.classList.add("show");
+        } 
+        //console.log(`${idx} ${child.classList.contains("hide")}`);
+    });
 
+    // Setting events for tabs
+    tabs.forEach((tab,idx) => {
+        tab.addEventListener("click",(ev) => {
+            //console.log(`${idx} clicked`);
+            panels.forEach((panel, pidx) => {
+                panel.classList.replace("show","hide");
+                if(pidx === idx){
+                    //console.log(`Panel ${pidx}`);
+                    panel.classList.replace("hide","show");
+                    tabs.forEach(t => t.classList.remove("selected"));
+                    ev.target.classList.add("selected");
+                }
+            });
+        });
+    });
 
+    qs("#btn_prev").addEventListener("click",(ev) => {
+        //let active = tabs.findIndex((tab) => tab.classList.contains("selected"));
+        let active = panels.findIndex((panel) => panel.classList.contains("show"));
+        //console.log(`${active}`);
+        //console.log(panels[active]);
+        if(active > 0){
+            //console.log(panels[active-1]);
+            panels.at(active).classList.replace("show","hide");
+            tabs.at(active).classList.remove("selected");
+            panels.at(active-1).classList.replace("hide","show");
+            tabs.at(active-1).classList.add("selected");
+        }
+    });
+    qs("#btn_next").addEventListener("click",(ev) => {
+        //let active = tabs.findIndex((tab) => tab.classList.contains("selected"));
+        let active = panels.findIndex((panel) => panel.classList.contains("show"));
+        //console.log(`${active}`);
+        //console.log(panels[active]);
+        if(active < panels.length - 1){
+            //console.log(panels[active+1]);
+            panels.at(active).classList.replace("show","hide");
+            tabs.at(active).classList.remove("selected");
+            panels.at(active+1).classList.replace("hide","show");
+            tabs.at(active+1).classList.add("selected");
+        }
+    });
+
+    // TODO: We need events for the previous and forward buttons and for a button that shows up in the results
+
+    // NOTE: Scores need to be stored in localStorage!
 }
 
 readQuizData();
