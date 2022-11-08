@@ -2,6 +2,8 @@
 
 Module 4 Challenge
 
+[![Screenshot](assets/images/code-quiz.png)](https://jrcharney.github.io/code-quiz/)
+
 ## User Story
 
 ```
@@ -33,8 +35,8 @@ THEN I can save my initials and score
 * [ ] Deduct time from the countdown timer if a question is answered incorrectly.
 * [ ] End the game when all the questions are answered or time runs out.
 * [ ] Save initials and score when the game is over.
-* [ ] Take a screenshot of the project
-* [ ] Ad a corner bug that links to this github Read Me.
+* [x] Take a screenshot of the project
+* [x] Ad a corner bug that links to this github Read Me.
 
 Deadline is November 7, 2022
 

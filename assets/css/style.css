@@ -16,6 +16,39 @@
 }
 */
 
+#uhoh{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 5px var(--bs);
+    background: #ccc;
+    color: #000;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.construction {
+    background: repeating-linear-gradient(
+        45deg,
+          #f80,
+          #f80 20px,
+          #000 20px,
+          #000 40px
+        );
+    width: 100%;
+    min-height: 20px;
+}
+
+#uhoh > div:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#uhoh > div:last-child {
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 .card {
     width: 90%;
     min-width: 640px;
