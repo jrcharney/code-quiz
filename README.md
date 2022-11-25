@@ -94,13 +94,11 @@ For now, there are only three things that matter:
 
 Eventually I want to have statistics set up for each category and each question to determine how players answered questions in each category and how they answered each question.  However, due to time constrains, the statistics system will have to wait.
 
-### Player Info
-
-### Scores
+### Player Info & Scores
 
 At the end of the game we need to keep track of how many.  We will likely want to save the top 10 scores in the system and avoid ties.  For now, just list the top ten.
 
-Each record will be recorded with the player initials (3 max), the score they got, and when they got the score.  A timestamp is necessary to avoid conflicts with ties.  The eldest record will be preserved, but if a player scores higher than a previous record, that player's score will be inserted and the lowest score will be removed. However, if there are multiple scores with the same value, the youngest score will be removed.  If you want your record to bepreserved, you need to break a previous record. If your record is tied with several other records before it, your record won't be part of the top 10.  It should be pretty simple.
+Each record will be recorded with the player initials (3 max), the score they got, and when they got the score.  A timestamp is necessary to avoid conflicts with ties.  The eldest record will be preserved, but if a player scores higher than a previous record, that player's score will be inserted and the lowest score will be removed. However, if there are multiple scores with the same value, the youngest score will be removed.  If you want your record to be preserved, you need to break a previous record. If your record is tied with several other records before it, your record won't be part of the top 10.  It should be pretty simple.
 
 ```json
     {
